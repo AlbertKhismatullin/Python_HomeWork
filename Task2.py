@@ -3,8 +3,9 @@
 from random import randint
 
 
-N = 5
-numbers = [randint(1, 100) for i in range(N)]
+N = 5 #количество чисел, из которых находится максимальное
+
+numbers = [randint(1, 100) for i in range(N)] #рандомный выбор пяти чисел в диапазоне от 0 до 100 
 
 max = numbers[0]
 
