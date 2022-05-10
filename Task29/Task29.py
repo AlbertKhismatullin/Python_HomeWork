@@ -3,7 +3,7 @@
 
 import math
 list1=[]
-with open(r'C:\Users\Альберт и Юлия\Desktop\Python\Python_HomeWork\Numbrs.txt', 'r') as data:
+with open(r'C:\Users\Альберт и Юлия\Desktop\Python\Python_HomeWork\Task29\Numbrs.txt', 'r') as data:
     for item in data:
         list1.append(item)
     for i in range(len(list1)):
